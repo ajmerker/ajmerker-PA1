@@ -1,0 +1,13 @@
+C:\source\repos\ajmerker-PA1\bin\Debug\netcoreapp3.1\ajmerker-PA1.exe
+C:\source\repos\ajmerker-PA1\bin\Debug\netcoreapp3.1\ajmerker-PA1.deps.json
+C:\source\repos\ajmerker-PA1\bin\Debug\netcoreapp3.1\ajmerker-PA1.runtimeconfig.json
+C:\source\repos\ajmerker-PA1\bin\Debug\netcoreapp3.1\ajmerker-PA1.runtimeconfig.dev.json
+C:\source\repos\ajmerker-PA1\bin\Debug\netcoreapp3.1\ajmerker-PA1.dll
+C:\source\repos\ajmerker-PA1\bin\Debug\netcoreapp3.1\ajmerker-PA1.pdb
+C:\source\repos\ajmerker-PA1\obj\Debug\netcoreapp3.1\ajmerker-PA1.csprojAssemblyReference.cache
+C:\source\repos\ajmerker-PA1\obj\Debug\netcoreapp3.1\ajmerker-PA1.AssemblyInfoInputs.cache
+C:\source\repos\ajmerker-PA1\obj\Debug\netcoreapp3.1\ajmerker-PA1.AssemblyInfo.cs
+C:\source\repos\ajmerker-PA1\obj\Debug\netcoreapp3.1\ajmerker-PA1.csproj.CoreCompileInputs.cache
+C:\source\repos\ajmerker-PA1\obj\Debug\netcoreapp3.1\ajmerker-PA1.dll
+C:\source\repos\ajmerker-PA1\obj\Debug\netcoreapp3.1\ajmerker-PA1.pdb
+C:\source\repos\ajmerker-PA1\obj\Debug\netcoreapp3.1\ajmerker-PA1.genruntimeconfig.cache
