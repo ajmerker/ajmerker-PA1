@@ -12,6 +12,7 @@ namespace ajmerker_PA1
             //Welcome message 
             Console.WriteLine("Welcome to Big Al's Tweeting Service!");
           
+          //Menu
             int menuInput = 0; 
             while (menuInput != 4) 
             {
@@ -38,33 +39,17 @@ namespace ajmerker_PA1
                     }
                     else if (menuInput ==2)
                     {
-                        PostUtil.AddPost(); // calls sortbyId in method 
+                        PostUtil.AddPost(alPosts); // calls sortbyId in method 
                         menuInput = 0; 
                     }
                     else if (menuInput ==3)
                     {
-                        PostUtil.DeletePost(); 
+                        PostUtil.DeletePost(alPosts); 
+                        menuInput = 0; 
                     }
                 }
 
             }
-            
-
-
-
-            //alPosts.Sort(); 
-            //Console.WriteLine("by Id");
-            //PostUtil.PrintAllPosts(alPosts); 
-
-            //alPosts.Sort(Post.CompareByText); 
-            //Console.WriteLine("by text");
-            //PostUtil.PrintAllPosts(alPosts); 
-
-           //alPosts.Sort(Post.CompareByTime);
-            //Console.WriteLine("by time");
-            //PostUtil.PrintAllPosts(alPosts);
-
-            //Console.WriteLine(alPosts.Count); 
 
 
         }

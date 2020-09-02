@@ -8,8 +8,10 @@ namespace ajmerker_PA1
     {
         public static List<Post> GetPosts()
         {
-            List<Post> alPosts = new List<Post>(); //still the constructor - no arg 
-            StreamReader inFile = null; 
+            List<Post> alPosts = new List<Post>(); //Constructor 
+           
+           //Try catch - check for file existance 
+            StreamReader inFile = null;  
 
             try
             {
@@ -23,6 +25,7 @@ namespace ajmerker_PA1
             }
 
             string line = inFile.ReadLine(); //priming read
+            //Read in rest of the file 
             while(line != null)
             {
                 string[] temp = new string[3]; 
@@ -32,6 +35,7 @@ namespace ajmerker_PA1
                 line = inFile.ReadLine(); //update read
             }
 
+            //close file 
             inFile.Close(); 
 
             return alPosts;

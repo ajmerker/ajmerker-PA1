@@ -17,14 +17,14 @@ namespace ajmerker_PA1
         }
 
         //Add a post
-        public static void AddPost()
+        public static void AddPost(List<Post> alPosts)
         {
-            List<Post> alPosts = PostFile.GetPosts();
+            //List<Post> alPosts = PostFile.GetPosts();
             alPosts.Sort(); 
+            Console.WriteLine("Here are the current Tweets:"); 
             PrintAllPosts(alPosts); 
-            Console.WriteLine("What order is it in?"); 
 
-            Console.WriteLine("enter text"); 
+            Console.WriteLine("Enter the text for your new Tweet:"); 
             string tempText = Console.ReadLine(); 
 
             DateTime tempDate = DateTime.Now; 
@@ -43,10 +43,10 @@ namespace ajmerker_PA1
 
 
         //Delete a Post
-        public static void DeletePost()
+        public static void DeletePost(List<Post> alPosts)
         {
-            List<Post> alPosts = PostFile.GetPosts();
             alPosts.Sort(); //by id 
+            Console.WriteLine("Here are the current Tweets:"); 
             PrintAllPosts(alPosts); 
 
             Console.WriteLine("Enter the Id of the Post you would like to delete"); 
@@ -73,6 +73,13 @@ namespace ajmerker_PA1
                 Console.WriteLine("Please enter the Id you would like to delete: "); 
                 tempDelete = int.Parse(Console.ReadLine()); 
             }
+
+            int counter = 0; 
+            foreach(Post post in alPosts)
+            {   
+                post.Id = counter; 
+                counter ++; 
+            }   
  
         }
 

@@ -4,6 +4,7 @@ namespace ajmerker_PA1
 {
     public class Post : IComparable<Post>
     {
+        //Auto Implimated Properties 
         public int Id {get; set;}
         public string text {get; set;}
 
@@ -27,7 +28,7 @@ namespace ajmerker_PA1
         }
 
 
-        //ToString 
+        //ToStrings
         public override string ToString() 
         {
             return this.Id + " "  + this.text + " " +  this.timestamp;  
